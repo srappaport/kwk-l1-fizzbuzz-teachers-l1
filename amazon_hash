@@ -1,0 +1,3 @@
+items = {} # this creates a new empty hash
+
+items["Dazzling Coat"]
