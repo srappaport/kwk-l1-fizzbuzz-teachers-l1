@@ -10,3 +10,5 @@ cart_prices.each do |price|
   full_price = price*(1+abq_tax)
   puts full_price
 end 
+
+puts full_price
