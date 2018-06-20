@@ -6,3 +6,7 @@ abq_tax = .05125
 cart_contains = ["toothbrush", "jacket", "drone"]
 cart_prices = [1.50, 42.99, 75.65]
 
+cart_prices.each do |price|
+  full_price = price*(1+abq_tax)
+  puts full_price
+end 
